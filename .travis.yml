@@ -1,4 +1,4 @@
 os: "linux"
 dist: "xenial"
-install: "apt-get install quilt parted realpath qemu-user-static debootstrap zerofree pxz zip dosfstools bsdtar libcap2-bin grep rsync xz-utils"
+install: "apt-get install quilt parted realpath qemu-user-static debootstrap zerofree pxz zip dosfstools bsdtar libcap2-bin grep rsync xz-utils curl xxd"
 script: "./build.sh"
